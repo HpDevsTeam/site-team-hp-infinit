@@ -1,0 +1,265 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-image: url(../images/fundo/fundomenupc.png);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+.navegacao{
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.logo img{
+    width: 80px;
+}
+
+.botaomenu{
+    display: none;
+}
+
+.botaomenu img{
+    width: 50px;
+}
+
+.menuoculto{
+    display: none;
+}
+
+.menu{
+    margin: auto;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.568);
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.flexconteudo{
+    display: flex;
+}
+
+.inicio{
+    margin: 20px;
+}
+
+.tituloprincipal{
+    margin: 30px 30px;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images img{
+    width: 280px;
+    margin: 20px;
+    height: 290px;
+    background-color: steelblue;
+}
+
+.images video{
+    width: 280px;
+    margin: 20px;
+    height: 290px;
+}
+
+.jogo{
+  width: 300px;
+  margin: 10px;
+}
+
+.jogo a{
+    color: white;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.jogo a:hover{
+    color: rgba(255, 255, 255, 0.568);
+    text-decoration: underline;
+}
+
+.jogo h4{
+    margin-bottom: 30px;
+    margin-left: 22px;
+}
+
+.linksparadownload{
+    text-align: center;
+}
+
+.linksparadownload h5{
+    margin: 20px 0px;
+}
+
+.linksparadownload button{
+    margin: 20px 0px;
+    padding: 10px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+    transition: 0.5s;
+}
+
+.linksparadownload button:hover{
+    color: rgba(255, 255, 255, 0.411);
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
+.versoes{
+    display: none;
+}
+
+.versoes li{
+    margin: 15px 0px;
+}
+
+.versoes a{
+    color: white;
+    transition: 0.5s;
+}
+
+.versoes a:hover{
+    color: rgba(255, 255, 255, 0.507);
+}
+
+.linksparadownload h4{
+    margin: 50px 0px;
+}
+
+.tutorial p{
+    margin: 30px;
+}
+
+.proximapagina{
+    visibility: hidden;
+    margin: 100px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.proximapagina button{
+  padding: 10px;
+  margin: 0px 5px;
+  transition: 0.5s;
+  background-color: rgb(204, 143, 199);
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.proximapagina button:hover{
+    background-color: rgba(204, 143, 199, 0.685);
+}
+
+.proximapagina a{
+    color: white;
+    text-decoration: none;
+}
+
+.fixmenulateral{
+    margin: 20px;
+    
+    padding: 20px;
+    height: 1380px;
+}
+
+.lupabusca{
+    margin: 20px;
+    display: flex;
+}
+
+.lupabusca input{
+    padding: 10px;
+    font-size: 15px;
+}
+.lupabusca button{
+    padding: 10px;
+}
+
+.menulateral{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.menulateral img{
+    margin: 20px 0px;
+    width: 300px;
+    height: 250px;
+}
+
+.tituloredessociais{
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.redessociais{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.redessociais img{
+    margin: 0px 5px;
+    width: 40px;
+}
+
+footer{
+    height: 500px;
+}
+
+.flexinformacoes{
+    display: flex;
+}
+
+.quadro1,.quadro2,.quadro3{
+    margin: 50px;
+}
+
+.quadro1 h3,.quadro2 h3,.quadro3 h3{
+       margin: 10px 0px;
+}
+
+.copyright{
+    margin: 100px 0px;
+    text-align: center;
+}
+
+.linksmaracao a{
+    color: white;
+    transition: 0.5s;
+}
+.linksmaracao a:hover{
+    color: rgba(255, 255, 255, 0.486);
+}

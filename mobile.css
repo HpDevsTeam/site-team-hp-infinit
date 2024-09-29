@@ -1,0 +1,206 @@
+.navegacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 80px;
+}
+
+.botaomenu{
+   margin-right: 50px;
+   display: block;
+}
+
+.botaomenu img{
+    width: 50px;
+    cursor: grab;
+}
+
+.menuoculto{
+    position: absolute;
+    right: 0;
+    background-image: url(images/icons/fundomenu.png);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 80px;
+    top: 0;
+    height: 200vh;
+    display: none;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.menuoculto p{
+    color: white;
+    font-size: 25px;
+    cursor: grab;
+}
+
+.menuoculto a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menuoculto a:hover{
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.568);
+}
+
+.menuoculto ul{
+    list-style: none;
+}
+
+.menuoculto li{
+    margin: 30px 0px;
+}
+
+.menu{
+    margin: auto;
+    display: none;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.flexconteudo{
+    display: block;
+}
+
+.inicio{
+    margin: 20px;
+}
+
+.tituloprincipal{
+    margin: 30px 30px;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.images img{
+    width: 280px;
+    margin: 20px;
+    height: 290px;
+}
+
+.jogo{
+  width: 300px;
+  margin: 10px;
+}
+
+.jogo a{
+    color: white;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.jogo a:hover{
+    color: rgba(255, 255, 255, 0.568);
+    text-decoration: underline;
+}
+
+.jogo h4{
+    margin-bottom: 30px;
+    margin-left: 22px;
+}
+
+.proximapagina{
+    margin: 100px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.proximapagina button{
+  padding: 10px;
+  margin: 0px 5px;
+}
+
+.fixmenulateral{
+    margin: 20px;
+    
+    padding: 20px;
+    height: 1380px;
+}
+
+.lupabusca{
+    margin: 20px;
+    display: flex;
+}
+
+.lupabusca input{
+    padding: 10px;
+    font-size: 15px;
+}
+.lupabusca button{
+    padding: 10px;
+}
+
+.menulateral{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.menulateral img{
+    margin: 20px 0px;
+    width: 300px;
+    height: 250px;
+}
+
+.tituloredessociais{
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.redessociais{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.redessociais img{
+    margin: 0px 5px;
+    width: 40px;
+}
+
+footer{
+    height: 500px;
+}
+
+.flexinformacoes{
+    display: block;
+}
+
+.quadro1,.quadro2,.quadro3{
+    margin: 50px;
+}
+
+.quadro1 h3,.quadro2 h3,.quadro3 h3{
+       margin: 10px 0px;
+}
+
+.copyright{
+    margin: 100px 20px;
+    text-align: center;
+    height: 200px;
+}
+
+.linksmaracao a{
+    color: white;
+    transition: 0.5s;
+}
+.linksmaracao a:hover{
+    color: rgba(255, 255, 255, 0.486);
+}
+

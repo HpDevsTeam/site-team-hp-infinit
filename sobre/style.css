@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-image: url(../images/fundo/fundomenupc.png);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+.navegacao{
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.logo img{
+    width: 80px;
+}
+
+.botaomenu{
+    display: none;
+}
+
+.botaomenu img{
+    width: 50px;
+}
+
+.menuoculto{
+    display: none;
+}
+
+.menu{
+    margin: auto;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.568);
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.conteudomeio{
+    margin: 0px 50px;
+}
+
+.conteudomeio img{
+    width: 300px;
+}
+
+.conteudomeio h1, p{
+    margin: 20px 0px;
+}
+
+footer{
+    height: 500px;
+}
+
+.flexinformacoes{
+    display: flex;
+}
+
+.quadro1,.quadro2,.quadro3{
+    margin: 50px;
+}
+
+.quadro1 h3,.quadro2 h3,.quadro3 h3{
+       margin: 10px 0px;
+}
+
+.copyright{
+    margin: 100px 0px;
+    text-align: center;
+}
+
+.linksmaracao a{
+    color: white;
+    transition: 0.5s;
+}
+.linksmaracao a:hover{
+    color: rgba(255, 255, 255, 0.486);
+}

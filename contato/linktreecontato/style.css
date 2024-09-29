@@ -1,0 +1,69 @@
+*{
+    
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    text-align: center;
+    background-image: url(../../images/fundo/fundomenupc.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.titulo{
+    color: white;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.blocos a{
+    color: black;
+    text-decoration: none;
+}
+
+.contato{
+    display: flex;
+    
+    background-color: white;
+    margin: 50px auto;
+    width: 400px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    border: 2px solid red;
+    transition: 0.5s;
+}
+
+.contato:hover{
+    background-color: rgba(255, 255, 255, 0.692);
+}
+
+.contato img{
+    width: 40px;
+}
+
+.contato h2{
+    margin: auto;
+}
+
+.formulario{
+    color: white;
+
+}
+
+.click a{
+    color: white;
+    transition: 0.5s;
+}
+
+.click a:hover{
+    color: rgba(255, 255, 255, 0.473);
+}
+
+.copy {
+    margin: 100px 0px;
+    color: white;
+}
