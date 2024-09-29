@@ -86,6 +86,7 @@ header{
     margin: 20px;
     height: 290px;
     background-color: steelblue;
+    border-radius: 10px;
 }
 
 .images video{
@@ -217,6 +218,7 @@ header{
     margin: 20px 0px;
     width: 300px;
     height: 250px;
+    border-radius: 10px;
 }
 
 .tituloredessociais{

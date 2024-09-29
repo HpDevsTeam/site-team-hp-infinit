@@ -90,7 +90,7 @@
 
 .images img{
     width: 280px;
-    margin: 20px;
+    margin: 20px 0px;
     height: 290px;
 }
 
@@ -127,15 +127,16 @@
 }
 
 .fixmenulateral{
-    margin: 20px;
     
-    padding: 20px;
+    margin: 0px;
+    padding: 0px;
     height: 1380px;
 }
 
 .lupabusca{
     margin: 20px;
     display: flex;
+    justify-content: center;
 }
 
 .lupabusca input{
@@ -150,6 +151,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 300px;
+    margin: auto;
 }
 
 .menulateral img{

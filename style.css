@@ -85,6 +85,7 @@ header{
     width: 280px;
     margin: 20px;
     height: 290px;
+    border-radius: 10px;
 }
 
 .jogo{
@@ -167,6 +168,7 @@ header{
     margin: 20px 0px;
     width: 300px;
     height: 250px;
+    border-radius: 10px;
 }
 
 .tituloredessociais{

@@ -21,7 +21,7 @@
 .menuoculto{
     position: absolute;
     right: 0;
-    background-image: url(images/icons/fundomenu.png);
+    background-image: url(../images/icons/fundomenu.png);
     background-size: cover;
     background-attachment: fixed;
     padding: 80px;
